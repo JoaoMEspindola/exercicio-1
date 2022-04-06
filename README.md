@@ -23,7 +23,7 @@ Para fazer a comparação o programa utiliza blocos de 'ifs', dentro de um loop(
 <p>Com isso, ao chegar na posição final, o programa irá imprimir uma nova matriz que mostrará os passos que o programa percorreu, além da soma final dos mesmos:</p>
 <img src = "./imgs/FOTO7.png/" width = "150px">
 <h1>Perguntas</h1>
-1- Uma maneira de chegar ao mesmo resultado é fazendo o caminho inverso, apontando como posição inicial mat[n][n] e invertendo a polaridade das condições dos <code>ifs</code> iniciais, como por exemplo o (j == 0) seria agora (j==n-1) e o (i == 0) seria (i == tam-1), tratando assim os travamentos nas últimas colunas e linhas, respectivamente.
+1- Uma maneira de chegar ao mesmo resultado é fazendo o caminho inverso, apontando como posição inicial mat[n][n] e invertendo a polaridade das condições dos <code>ifs</code> iniciais, como por exemplo o (j == 0) seria agora (j==n-1) e o (i == 0) seria (i == n-1), tratando assim os travamentos nas últimas colunas e linhas, respectivamente.
 <br>
 2- Em literatura, pode-se observar o Algoritmo de Dijkstra, que calcula o menor caminho utilizando como método o algoritmo guloso, supracitado em [1].
 <br>
