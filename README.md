@@ -21,7 +21,7 @@ Para fazer a comparação o programa utiliza blocos de 'ifs', dentro de um loop(
 <p>Porém, há específicas ocasiões que o programa encontra obstáculos para achar seu próximo passo, por exemplo, quando está em uma borda ele só poderá se mover para uma específica posição:</p>
 <img src = "./imgs/foto6.png/" width = "250px">
 <p>Com isso, ao chegar na posição final, o programa irá imprimir uma nova matriz que mostrará os passos que o programa percorreu, além da soma final dos mesmos:</p>
-<img src = "./imgs/foto7.png/" width = "150px">
+<img src = "./imgs/FOTO7.png/" width = "150px">
 <h1>Perguntas</h1>
 1- Uma maneira de chegar ao mesmo resultado é fazendo o caminho inverso, apontando como posição inicial mat[n][n] e invertendo a polaridade das condições dos <code>ifs</code>
 <br>
