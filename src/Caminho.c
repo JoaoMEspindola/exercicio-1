@@ -27,16 +27,17 @@ int caminhaMatriz(int tam, int i, int j, int **mat){
     bool passou = false;
     i = 0;
     j = 0;
+    soma = mat[i][j];
     while(i != tam && j != tam){
         //TRATAMENTO PRIMEIRA COLUNA
         if (j == 0){
             if (i < tam-1 && mat[i+1][j] >= mat[i][j+1]){
                 i++;
-                soma += mat[i-1][j] + mat[i][j];
+                soma += mat[i][j];
                 mat[i-1][j] = passou;                
             }else{
                 j++;
-                soma += mat[i][j-1] + mat[i][j];
+                soma += mat[i][j];
                 mat[i][j-1] = passou;                            
             }
         }
